@@ -30,7 +30,7 @@
 html, body {
     background-color: $background;
     color: $text;
-    font-family: 'Montserrat', 'Raleway', sans-serif;
+    font-family: 'Inter', 'Montserrat', 'Raleway', sans-serif;
     font-weight: 400;
     z-index: 50;
 }
@@ -246,7 +246,7 @@ tr {
     margin-bottom: 10px;
     font-size: 14px;
     font-weight: 700;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Inter', 'Raleway', sans-serif;
     > li {
         display: inline;
     }
