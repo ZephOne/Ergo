@@ -75,7 +75,7 @@
 </ul>
 {% endmacro frontmatter %}
 
-{% macro menu(title, siteurl, extra, rss) %}
+{% macro menu(title, siteurl, extra, rss, search) %}
 <input type="checkbox" id="openSidebarMenu" class="openSidebarMenu">
 <label class="menu cross menu--1" for="openSidebarMenu">
     <svg viewBox="0 0 75 75" xmlns="https://www.w3.org/2000/svg">
@@ -122,6 +122,9 @@
             {% endif %}
             {% if rss %}
             <li><a href="{{siteurl}}/rss.xml" target ="_blank">rss</a><i class="fas fa-rss" ></i></li>
+            {% endif %}
+            {% if search %}
+            <li><a href="{{siteurl}}/search" target ="_blank">search</a><i class="fas fa-search" ></i></li>
             {% endif %}
         </ul>
     </div>
